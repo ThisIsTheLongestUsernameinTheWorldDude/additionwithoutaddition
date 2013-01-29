@@ -7,9 +7,9 @@
 
 (define (counter n num)
   (cond 
-    [(= n 0) num]
-    [else (counter (sub1 n) (add1 num))]))
+    [(= n 0) ...]
+    [else ...]))
 (define (add-to-pi n)
   (cond
-   [(number? n) (counter n 3.14)]
+   [(number? n) (counter ...)]
    [else "THIS IS NOT A NUMBER YOU FOOL"]))
